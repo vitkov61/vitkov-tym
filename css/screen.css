@@ -1,0 +1,107 @@
+.container {
+    background-color: #004C70;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.profile {
+    background-color: #005D83;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-color: #0f0f0f;
+    border-radius: 10px;
+}
+
+.profilerow .profilecol:last-child .profile {
+    margin-right: 10px;
+}
+
+.face {
+    margin: 2px auto;
+    padding: 2px;
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+}
+
+h1, h2, h3 {
+    color: yellow;
+}
+
+h2 {
+    font-size: 20px;
+    padding-left: 10px;
+}
+h3 {
+    font-size: 18px;
+}
+
+body {
+    color: #ffffff;
+}
+
+a {
+    color:yellow;
+}
+
+.page-header {
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+.nav-row {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.nav-row.affix {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #004C70;
+}
+
+.what-now {
+    background-color: #005D83;
+    border-radius:10px;
+    border: 2px solid yellow;
+    padding: 5px;
+    margin-bottom: 5px;
+    }
+
+a:hover {
+    background-color: yellow;
+}
+
+.must .profile {
+    border: 3px solid red;
+}
+.should .profile {
+    border: 3px solid orange;
+}
+
+.nice .profile {
+    border: 3px solid green;
+}
+
+.priority {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+.must .label {
+    background-color: red;
+}
+
+.should .label {
+    background-color: orange;
+}
+
+.nice .label {
+    background-color: green;
+}
